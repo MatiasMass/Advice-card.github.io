@@ -1,0 +1,50 @@
+.container {
+    background-color:  hsl(217, 19%, 24%);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.title{
+    margin: 15px;
+    font-size: 15px;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 0.2em;
+}
+p {
+    font-size: 30px;
+    color: hsl(193, 38%, 86%);
+    font-weight: 700;
+}
+
+.divider{
+    width: 100%;
+}
+/* .dice {
+    border: 10px solid hsl(150, 100%, 66%);
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    position: absolute;
+    top: 370px;
+    left: 630px;
+} */
+.dice {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: hsl(150, 100%, 66%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0%, 40%);
+    transition: ease 0.2s;
+    margin: -50px auto;
+  }
+  
+  .dice:hover {
+    box-shadow: 0 0 40px 0px hsl(150, 100%, 66%);
+    cursor: pointer;
+  }
